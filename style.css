@@ -1,0 +1,87 @@
+/*set default font and colors for the page*/
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    background-color: #777;
+}
+
+/*define dimensions of wrapper containing the page's content and center it using margins*/
+.wrapper{
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+/*set color of the five main boxes of content and center text within them*/
+header, nav, section, aside, footer{
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+/*add vertical padding and margins to header and nav bars*/
+header, nav{
+    padding: 30px 0 30px 0;
+    margin-bottom: 10px;
+}
+
+/*define dimensions and placement of "section" box*/
+section{
+    width: 495px;
+    height: 250px;
+    padding-top: 40px;
+    margin: 10px 10px 20px 0;
+    float: left;
+}
+
+/*add space below "section" heading*/
+.heading-section{
+    margin-bottom: 30px;
+}
+
+/*set colors, dimensions, and margins of the "article" box within the "section" box*/
+article{
+    color: #ebebeb;
+    background-color: #777;
+    width: 475px;
+    padding-bottom: 1px;
+    margin: 0 auto 0 auto;
+}
+
+/*adjust spacing for "article" box's heading*/
+.heading-article{
+    padding-top: 15px;
+    margin-bottom: -5px;
+}
+
+/*center and set width of boxes containing h1 and p text*/
+.container{
+    width: 440px;
+    margin: 0 auto 0 auto;
+}
+
+/*set colors and padding of h1 and p text*/
+h1, p{
+    color: #777;
+    background-color: #ebebeb;
+    padding: 15px 0 15px 0;
+}
+
+/*pull p text along with its container upward by 10px*/
+p{
+    margin-top: -10px;
+}
+
+/*define dimensions and placement of "aside" box*/
+aside{
+    width: 445px;
+    height: 250px;
+    padding-top: 40px;
+    margin: 10px 0 20px 10px;
+    float: right;
+}
+
+/*move footer downward and add vertical padding*/
+footer{
+    padding: 30px 0 30px 0;
+    margin-top: 330px;
+}
